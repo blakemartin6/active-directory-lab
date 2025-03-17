@@ -6,7 +6,7 @@ This lab was completed as part of the Active Directory Fundamentals course by Se
 
 🔧 Tools Used
 
-VirtualBox / Hyper-V / VMware (specify what you used)
+VirtualBox (Virtualization Platform)
 
 Windows Server 2019 Evaluation ISO
 
@@ -60,6 +60,66 @@ Practice more complex OU structures and AD delegation
 
 Set up a file server and apply NTFS permissions
 
+🏡 Expanded Home Lab Environment
+
+To further build out this environment and strengthen both system administration and security foundations, additional virtual machines have been added:
+
+🖥️ Virtual Machines in the Lab
+
+VM Name
+
+Purpose
+
+Windows Server 2022
+
+Domain Controller, AD DS, DNS, DHCP, GPO
+
+Windows 10
+
+Client machine (joined to domain)
+
+Ubuntu Server
+
+Hosting Splunk (SIEM logging tool)
+
+Kali Linux
+
+Testing / Penetration Testing Environment
+
+🔧 Additional Tools & Platforms
+
+Windows Server 2022 ISO
+
+Ubuntu Server ISO
+
+Kali Linux ISO
+
+Splunk Free Edition
+
+PowerShell, Bash, GPO, Event Viewer
+
+✅ Additional Features Implemented / In Progress
+
+Active Directory Domain Setup on Server 2022
+
+Client domain join (Windows 10)
+
+GPO configurations
+
+User and OU management
+
+Splunk installation on Ubuntu Server (in progress)
+
+📈 Future Plans
+
+Log forwarding from Windows to Splunk
+
+PowerShell scripting for automation
+
+Advanced GPO configurations
+
+Simulated security incident response via logs and monitoring
+
 📁 Project Source
 
-This project is based on practical labs from Server Academy, with additional documentation and tasks performed for personal practice and portfolio building.
+The initial portion of this project was based on practical labs from Server Academy. Subsequent configurations and experiments are self-directed, following various community guides, documentation, and hands-on exploration for continuous learning and skill development.
